@@ -59,7 +59,7 @@ class: single middle center
 ---
 class: single middle center
 
-# Comment pouvez-vous en être sûrs ?
+# Comment pouvez-vous en être sûr·e·s ?
 
 
 ---
@@ -152,18 +152,49 @@ class: middle
 ![une femme s'énerve violemment avec un doigt d'honneur pour exprimer un vif mécontentement](./middle-finger.gif)
 ]
 
+
+---
+class: middle
+
+# Vie privée, du point de vue de l'utilisateur·trice
+
+.large[
+* donner trop de pouvoir rend les choses trop complexes
+* illusionner sur une protection trop parfaite
+* ce n'est pas un enjeu du public
+]
+
+???
+
+* e.g. uMatrix
+* e.g Apple softs prefs
+* les gens savent que leur données partent chez GAFAMs mais n'y sont pas sensibles
+
+
+---
+class: single middle inverse
+
+# _Publicness_ ?
+
+> Publicness is value. This is an argument I'll make that what's public is owned by the public — whether that's governments' actions or images taken in public space — and whenever that is diminished, it robs from us, the public.
+
+Jeff Jarvis. 2011
+
+→ [Jeff Jarvis - Privacy and Publicness and the power behind it - Youtube](https://www.youtube.com/watch?v=cVF5zPLPbvw)
+
+
 ---
 layout: false
 class: section bottom
 background-image: url(../img/placeholders/pen-idea-bulb-paper.jpg)
 
-# _Privacy by design_, d'où ça vient ?
+# _Privacy by design_, la réponse au problème ?
 
 
 ---
 layout: true
 
-.breadcrumb[_Privacy by design_, d'où ça vient ?]
+.breadcrumb[_Privacy by design_, la réponse au problème ?]
 
 
 ---
@@ -253,7 +284,7 @@ class: middle
 ---
 class: middle
 
-# Accountability est un principe _a posteriori_
+# Problème : Accountability est un principe <br> _a posteriori_
 
 .center[
 ![Un homme en smoking au volant d'une voiture bois un cocktail en en blâmant un autre sur l'accident qu'il a créé](./accident-you-asshole.gif)
@@ -261,17 +292,23 @@ class: middle
 
 
 ---
+class: single inverse middle
+
+# Il faut un modèle de conception qui prenne en compte la vie privée
+
+
+---
 layout: false
 class: section bottom
 background-image: url(../img/placeholders/nostalgy-collector-michelle-heavy-metal.jpg)
 
-# Être _Privacy by design_
+# Conception _Privacy by design_
 
 
 ---
 layout: true
 
-.breadcrumb[Être _Privacy by design_]
+.breadcrumb[Conception _Privacy by design_]
 
 
 ---
@@ -291,6 +328,16 @@ class: middle
 1. Respect for user privacy – keep it user-centric
 ]
 
+???
+
+1. anticiper, identifier, prévenir les invasions, donc prendre des actions en amont de l'attaque
+2. s'assurer que toutes les données personnelles sont protégées dans IT sans action supplémentaire
+3. la vie privée est core-integrated
+4. approche win-win, vie privée et sécurité ne sont pas en balance
+5. la donnée n'est pas conservée plus que nécessaire et sécurisée tout du long
+6. tous les acteurs sont sensibilisés aux problèmes de la donnée privée
+7. les données privées sont protégées par des solutions fortes par défaut, correctement indiquées et des options simples pour l'utilisateur
+
 
 ---
 class: single inverse middle
@@ -299,99 +346,121 @@ class: single inverse middle
 
 
 ---
-class: middle
+class: medium
 
-# Proactive not reactive; <br> Preventative not remedial
+# Lors de la conception
 
-## Pro-actif
+* Concevez des check-list impliquant toutes les enjeux de données
+* Assurez-vous que tous les intervenants sont sensibilisés
+* Ne demandez pas plus de permissions que nécessaire
+* Auditez, testez, pen testez !
 
-.large[
-* anticiper les failles
-* protéger les données
-* préparer les réponses aux attaques
-]
+--
 
----
-class: middle
+**côté technique…**
 
-# Privacy as the default setting
+* Chaque feature valide la check-list, en tests automatisés
 
-## Privé par défaut
+--
 
-.large[
-* anonymiser
-* pas de conservation de données inutiles
-* traitement à minima
-]
+* Les jeux de tests ne viennent pas de la prod !
 
-→ privacy by default
+--
 
+* Oubliez les frameworks de permissions tous prêts
 
----
-class: middle
+--
 
-# Privacy embedded into design
-
-## Embarqué à la conception
-
-.large[
-* penser la donnée à chaque étape
-* minimiser les utilisations
-]
+* Tests fonctionnels sur des environnements multiples
 
 ---
-class: middle
+class: medium
 
-# Full functionality - <br> positive-sum, not zero-sum
+# Lors de l'exécution
 
-## Pleinement fonctionnel
+* Minimisez la collecte de données
+* Minimisez les données échangées avec les services tiers
+* Pseudonimisez la donnée
+* Vérifiez les formulaires (contact, login, assistance…)
+* Supprimez régulièrement la donnée collectée
 
-.large[
-* toutes les fonctionnalités sont disponibles
-* pas de sanction de l'utilisateur·trice
-* pas de service dégradé
-]
+--
 
----
-class: middle
+** côté technique…**
 
-# End-to-end security - <br> full lifecycle protection
+* Utilisez des services de gestion d'identités (OpenID…)
 
-## Protection de bout en bout
+--
 
-.large[
-* chiffrement
-* réseaux mesh
-]
+* Hashez / chiffrez / tokenizez les entrées
+* Permutez et substituez les données sensibles
 
----
-class: middle
+--
 
-# Visibility and transparency - <br> keep it open
+* Segmentez vos jeux de données _via_ des outils statistiques (Piwik…)
 
-## Transparence
+--
 
-.large[
-* solutions open-source
-* ouvert aux audits et contributions
-]
+* Faites passer des cron !
 
 ---
-class: middle
+class: medium
 
-# Respect for user privacy - <br> keep it user-centric
+# Implication de l'utilisateur·trice
 
-## Centré sur l'utilisateur
+* Founissez des réglages simples et notices claires
+* Facilitez les souscriptions d'options via ces notices
+* N'exigez pas de passer par des services externes
+* Pas de partage sur les réseaux par défaut
+* Séparez les consentements
 
-.large[
-* fonctionnalités à discrétion
-* contrôle des flux de données
-* information sur les usages
-]
+--
+
+**côté technique…**
+
+* Utilisez des outils de dataflow analysis sur vos DB <br> → [Cornell university Library](https://arxiv.org/abs/1706.09479)
+
+--
+
+* Utilisez de vrais outils d'identités décentralisées (OpenID…), pas de logins _via_ les réseaux sociaux
+
+--
+
+* Plus de jsSocials (par pitié…)
+
+--
+
+* Utilisez des outils de trace d'usages respecteux (Piwik…)
+
+---
+class: medium
+
+# Fin du cycle de vie
+
+* Rappelez régulièrement les utilisateurs·trices à leur confidentialité
+* Facilitez l'export de données
+* Supprimez les données des comptes supprimés
+* Supprimez les données à la fermeture du service
+
+--
+
+** côté technique…**
+
+* Utilisez les frameworks de notification pour ne pas polluer (toastr…)
+
+--
+
+* Mettez en place des APIs documentées (Swagger, Apiary…) utilisables
+* Utilisez des formats de données ouverts (XML, JSON…)
+
+--
+
+* `rm -rf /`
+
 
 ---
 layout: false
-class: section
+class: section bottom
 background-image: url(../img/placeholders/bridge-wood-walk-passway.jpg)
 
 # Sauf que ça n'est pas suffisant
@@ -435,7 +504,7 @@ class: middle
 ---
 class: middle
 
-# Les PETs (_Privacy Enhancing Technologies_)
+# Les PETs <br> (_Privacy Enhancing Technologies_)
 
 .large[
 * protéger la donnée personnelle
@@ -489,61 +558,6 @@ class: middle inverse
 ![Un homme apparaît en boucle pour saluer le public](./clones.gif)
 ]
 
----
-layout: false
-class: section bottom
-background-image: url(../img/placeholders/ball-shaped-beach-blur-close-up.jpg)
-
-# Un sentiment trompeur
-
-
----
-layout: true
-
-.breadcrumb[Un sentiment trompeur]
-
-
----
-class: middle
-
-# La tentation marketing
-
-.large[
-* nombreuses failles possibles
-* facile de mentir, même par omission
-* méfiance sur le buzz
-]
-
-
----
-class: middle
-
-# Du point de vue de l'utilisateur·trice
-
-.large[
-* donner trop de pouvoir rend les choses trop complexes
-* illusionner sur une protection trop parfaite
-* ce n'est pas un enjeu du public
-]
-
-???
-
-* e.g. uMatrix
-* e.g Apple softs prefs
-* les gens savent que leur données partent chez GAFAMs mais n'y sont pas sensibles
-
-
----
-class: single middle inverse
-
-# _Publicness_ ?
-
-> Publicness is value. This is an argument I'll make that what's public is owned by the public — whether that's governments' actions or images taken in public space — and whenever that is diminished, it robs from us, the public.
-
-Jeff Jarvis. 2011
-
-→ [Jeff Jarvis - Privacy and Publicness and the power behind it - Youtube](https://www.youtube.com/watch?v=cVF5zPLPbvw)
-
 
 ---
 layout: false
@@ -594,7 +608,7 @@ class: middle
 * sensibiliser les usages
 * lancer des alertes
 * agir chacun à son niveau
-* cypherpunks
+* _Differential Privacy_
 ]
 
 
