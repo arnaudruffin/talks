@@ -38,12 +38,6 @@ layout: true
 
 
 ---
-class: single inverse middle
-
-# Savez-vous à quoi servent les détecteurs de fumée ?
-
-
----
 class: single middle center
 
 # Nothing to hide
@@ -82,6 +76,12 @@ class: middle center
 
 
 → [Glen Greenwald - Why Privacy matters - Youtube](https://www.youtube.com/watch?v=pcSlowAhvUk)
+
+
+---
+class: single inverse middle
+
+# Savez-vous à quoi servent les alarmes incendie ?
 
 
 ---
@@ -412,13 +412,13 @@ class: medium
 * Facilitez les souscriptions d'options via ces notices
 * N'exigez pas de passer par des services externes
 * Pas de partage sur les réseaux par défaut
-* Séparez les consentements
+* Séparez les consentements (_shared data_ vs _analytics_)
 
 --
 
 **côté technique…**
 
-* Utilisez des outils de dataflow analysis sur vos DB <br> → [Cornell university Library](https://arxiv.org/abs/1706.09479)
+* Utilisez des outils de _dataflow analysis_ sur vos DB <br> → [Cornell university Library](https://arxiv.org/abs/1706.09479)
 
 --
 
@@ -426,7 +426,7 @@ class: medium
 
 --
 
-* Plus de jsSocials (par pitié…)
+* Plus de jsSocials ~~par défaut~~ par pitié…
 
 --
 
@@ -446,11 +446,11 @@ class: medium
 
 ** côté technique…**
 
-* Utilisez les frameworks de notification pour ne pas polluer (toastr…)
+* Utilisez les frameworks de notification pour ne pas polluer (toastr, Notify.js…)
 
 --
 
-* Mettez en place des APIs documentées (Swagger, Apiary…) utilisables
+* Mettez en place des APIs documentées (Swagger, Apiary…) et utilisables
 * Utilisez des formats de données ouverts (XML, JSON…)
 
 --
@@ -564,13 +564,13 @@ layout: false
 class: section
 background-image: url(../img/placeholders/egg-hammer-threaten-violence.jpg)
 
-# Mettre en pratique
+# Dépasser _Privacy by Design_
 
 
 ---
 layout: true
 
-.breadcrumb[Mettre en pratique]
+.breadcrumb[Dépasser _Privacy by Design_]
 
 
 ---
