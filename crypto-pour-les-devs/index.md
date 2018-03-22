@@ -10,24 +10,23 @@ Késako?
 
 ---
 name: speaker
-class: center
+class: center middle single
 
-![mad hatter](../img/mad-hatter.gif)
+![mad hatter](../img/m4dz.jpg)
 
 # m4dz
 
-**Happy Dev UI & Quality defender**
+**Paranoïd Web Dino & Tech Evangelist**
 
 .extras[
-[m4dz.net](https://m4dz.net) | [@m4d_z](https://twitter.com/m4d_z) | PGP [0xD4627C417D969710](http://m4dz.net/0xD4627C417D969710.asc)
+[m4dz.net](https://m4dz.net) | [@m4d_z](https://twitter.com/m4d_z) | PGP [0xD4627C417D969710](https://m4dz.net/0xD4627C417D969710.asc)
 ]
 
-
 .org[
-## ![Cozy Cloud](../img/cozy.svg)
+## ![alwaysdata](../img/alwaysdata.svg)
 
 .extras[
-  [cozy.io](https://cozy.io)
+  [www.alwaysdata.com](https://www.alwaysdata.com)
 ]
 ]
 
@@ -47,13 +46,16 @@ layout: true
 
 ---
 class: single, middle, inverse
+
 # La limite des mots de passe : l'interface CC
 
-[The Scary Truth About Your Passwords](https://blog.lastpass.com/2014/09/the-scary-truth-about-your-passwords-an-analysis-of-the-gmail-leak.html/)
+- [The Scary Truth About Your Passwords - Lastpass blog - 2014](https://blog.lastpass.com/2014/09/the-scary-truth-about-your-passwords-an-analysis-of-the-gmail-leak.html/)
+- [Worst passwords of 2017, Top 100 - Splashdata - 2017](https://13639-presscdn-0-80-pagely.netdna-ssl.com/wp-content/uploads/2017/12/Top-100-Worst-Passwords-of-2017a.pdf)
 
 
 ---
 class: middle, center, stickit
+
 # m'en fous, on n'héberge pas de données sensibles
 
 ![WTF](./wtf.gif)
@@ -61,11 +63,13 @@ class: middle, center, stickit
 
 ---
 class: single, middle, inverse
+
 # Une seule solution
 
 
 ---
 class: middle, center, stickit
+
 # Chiffrer
 
 ![deal with it](./deal-with-it.gif)
@@ -74,13 +78,16 @@ class: middle, center, stickit
 
 ---
 class: middle
+
+.large[
 - guerre de l'information
 - tracking et recroisement
 - identité numérique
-
+]
 
 ---
 class: single, inverse, middle
+
 # **Aucune donnée sensible ne devrait circuler ou être stockée en clair**
 
 
@@ -100,6 +107,7 @@ layout: true
 
 ---
 class: middle, center
+
 # Chiffrement
 
 ![manga fear](./manga-fear.gif)
@@ -107,27 +115,32 @@ class: middle, center
 
 ---
 class: single, middle, center
+
 # Plus question de reculer
 
 
 ---
 class: center, middle
-# NSA / Prism / Loi Renseignement
+
+# NSA / Prism / Loi Renseignement vs GPDR / ePrivacy
 
 .small.round[![NSA](./nsa.jpg)]
 
 
 ---
 class: middle
+
 # La crypto, ça n'est pas…
 
+.large[
 - l'authentification
 - la sécurité
 - la révocation
-
+]
 
 ---
 class: middle
+
 # Objectif :<br>Protéger des informations sensibles
 
 .center[![Batman](./batman.gif)]
@@ -135,16 +148,19 @@ class: middle
 
 ---
 class: middle
+
 # La crypto, c'est :
 
+.large[
 - Hash
 - Encryption
 - Échange de clés
 - Signature
-
+]
 
 ---
 class: center, video
+
 # Seule la clé est importante
 
 .large[
@@ -168,6 +184,7 @@ layout: true
 
 ---
 class: center, middle
+
 # Il était une fois…
 
 ![Alice's white rabbit](./alice-rabbit.gif)
@@ -175,6 +192,7 @@ class: center, middle
 
 ---
 class: center, middle
+
 # Le Code César
 
 ![Jules César, Astérix](./juliuscaesar.jpg)
@@ -182,6 +200,7 @@ class: center, middle
 
 ---
 class: center, middle
+
 # Le chiffre de Vigenère
 
 .small[![carré de Vigenère](./vigenere_square_shading.svg)]
@@ -191,7 +210,6 @@ Plaintext:  ATTACKATDAWN
 Key:        LEMONLEMONLE
 Ciphertext: LXFOPVEFRNHR
 ```
-
 
 ---
 class: bottom-up, middle, inverse
@@ -219,6 +237,7 @@ Aucun système ne peut être suffisamment robuste pour résister éternellement 
 
 ---
 class: middle
+
 # La protection des clés est essentielle
 
 .large[![XKCD:538](./xkcd-security.png)]
@@ -246,11 +265,13 @@ layout: true
 
 ---
 class: single, middle
+
 # Hachage : obfuscation des données 👍
 
 
 ---
 class: bottom-up, middle, inverse
+
 # Problème
 
 les rainbow / lookup / reverse-lookup tables
@@ -258,12 +279,14 @@ les rainbow / lookup / reverse-lookup tables
 
 ---
 class: middle
+
 # Saler
 
+.large[
 - ajoute de l'entropie
 - supprime les risques de répétition
 - doit être **unique** et **aléatoire**
-
+]
 
 ---
 class: middle
@@ -282,9 +305,11 @@ md5(sha1(md5(md5(password) + sha1(password)) + md5(password)))
 class: middle
 # On fait :
 
+.large[
 - pseudo-aléatoire <abbr title="Cryptographically secure pseudorandom number generator">CSPRNG</abbr> : le salt
 - dérivation PBKDF2 (SHA256) / Bcrypt / Scrypt sur `[salt+pasword]` (+ entropie)
 - stockage du résultat et des paramètres
+]
 
 [Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)
 
@@ -313,28 +338,31 @@ class: middle
 
 # Chiffrement par bloc
 
+.center.small[
+![sorcery cocktail](./cocktail.gif)
+]
+
+.large[
 - ~~DES (Data Encryption Standard)~~
 - AES (Advanced Encryption Standard)
-
-
----
-class: center, middle
-
-# Chiffrement par flux (Stream Cipher)
-
-![badass](./badass.gif)
-
+- IDEA
+- BlowFish
+]
 
 ---
 class: middle
-# Padding & Random
 
-- ~~ECB (Electronic Code Book)~~
-- ~~CBC (Cipher Block Chaining)~~
-- AEAD (Authenticated Encryption with Associated Data)
+# Chiffrement par flux (Stream Cipher)
 
-https://blog.cloudflare.com/padding-oracles-and-the-decline-of-cbc-mode-ciphersuites/
+.center[
+![badass](./badass.gif)
+]
 
+.large[
+- ~~RC4~~
+- ChaCha20 ?
+- Panama ?
+]
 
 ---
 class: bottom-up, middle, inverse
@@ -347,9 +375,25 @@ Les machines ne sont pas aléatoires
 ---
 class: middle
 
+.large[
 - besoin de données imprévisibles
 - méthodes crypto <abbr title="Cryptographically secure pseudorandom number generator">CSPRNG</abbr><br><small>(pas [`/dev/urandom`](http://www.2uo.de/myths-about-urandom/) directement, utilisez les méthodes des libs crypto)</small>
 - IV (Vecteur d'Initialisation)<br><small>(bytes-block utilisés en initialisation d'un algo de chiffrement pour assurer son caractère unique)</small>
+]
+
+
+---
+class: middle
+
+# Padding, Random, IV
+
+.large[
+- ~~ECB (Electronic Code Book)~~
+- ~~CBC (Cipher Block Chaining)~~
+- AEAD (Authenticated Encryption with Associated Data)
+]
+
+https://blog.cloudflare.com/padding-oracles-and-the-decline-of-cbc-mode-ciphersuites/
 
 
 ---
@@ -362,6 +406,7 @@ Une clé peut être compromise : une clé symétrique doit nécessairement circu
 
 ---
 class: center, middle
+
 # Bob & Alice échangent leurs clés
 
 ![letter](./letter.gif)
@@ -383,65 +428,90 @@ layout: true
 
 ---
 class: middle
+
 # Clé symétrique
 
+.large[
 - clé unique pour toutes les opérations
 - rapide
 - sensible sur la clé
-
+]
 
 ---
 class: middle
+
 # Diffie-Hellman
 
-- sécurité supplémentaire sur les échanges
+.center[![Diffie-Hellman key exchange](./Diffie-Hellman_Key_Exchange.jpg)]
+
+.large[
 - clé publique commune
 - secret partagé
-
-.small.center[![Diffie-Hellman key exchange](./Diffie-Hellman_Key_Exchange.jpg)]
+]
 
 
 ---
 class: middle
+
 # PGP / GnuPG
 
+.large[
 - clés asymétriques (RSA) sur clé symétrique (~~IDEA~~ AES)
 - chiffre (clé publique) et signe (clé privée)
 - utilise l'entropie fournie par l'utilisateur
+]
 
 --
+
+.large[
 - **la Crypto pour tous** (https://ssd.eff.org/fr)
+]
 
 
 ---
 class: middle
+
 # Signature
 
+.large[
 - asymétrique inversée
 - pas de sécurisation
+]
 
 --
+
+.large[
 - **identification**
+]
 
 
 ---
 class: middle
+
 # Certificats
 
+.large[
 - authentifie un client auprès d'un tiers de confiance
 - assure la révocation
+]
 
 --
+
+.large[
 - **[Let's Encrypt](https://letsencrypt.org/)**
+]
 
 
 ---
 class: middle
+
 # Les standards
 
+.large[
 - [X.509](http://www.itu.int/rec/T-REC-X.509/en)
 - [PKCS](https://www.emc.com/emc-plus/rsa-labs/standards-initiatives/public-key-cryptography-standards.htm)
 - [PCIDSS](https://www.pcisecuritystandards.org/security_standards/)
+]
 
 
 ---
@@ -460,24 +530,30 @@ layout: true
 
 ---
 class: stickit, middle
+
 # Le réseau
 
-- ~~SSL~~ / TLS ![SSL Diagram](./learn_ssl_diagram.gif)
+.large[
+- ~~SSL~~ / TLS
 - Confidentialité persistante
-
+]
 
 ---
 class: single, middle
+
 # Les accès :<br>Password Hash
 
 
 ---
 class: stickit, middle
+
 # Les données
 
+.large[
 - RSA
 - Symétrique encapsulé
 - Boitiers HSM
+]
 
 
 ---
@@ -495,7 +571,27 @@ layout: true
 
 
 ---
+class: middle
+
+# Côté backend
+
+.large[
+- PyCrypto
+- RbNaCl
+- Node.js Crypto module
+- PHP Mcrypt
+]
+
+
+---
+class: single, middle, inverse
+
+# Et côté front ?
+
+
+---
 class: middle, center
+
 # The WG Spec
 
 ![flamingo](./flamingo.gif)
@@ -505,6 +601,7 @@ _before reading_
 
 ---
 class: middle, center
+
 # The WG Spec
 
 ![Stitch Crying](./stitch-crying.gif)
@@ -514,21 +611,18 @@ _after reading_
 
 ---
 class: middle
+
 # Current Status
 
-- Working Draft
+.large[
+- Recommandation <small>(26 janvier 2017)</small>
 - Spec obscure pour les néophytes
+]
 
 
 ---
-class: middle
-```js
-window.crypto
-```
+class: middle, center, inverse
 
-
----
-class: middle, center
 ```js
 window.crypto.subtle
 ```
@@ -538,13 +632,7 @@ window.crypto.subtle
 
 ---
 class: middle
-```js
-window.crypto.subtle.encrypt
-```
 
-
----
-class: middle
 ```js
 window.crypto.subtle.encrypt(/* ... */)
 .then(function(encrypted){
@@ -559,24 +647,29 @@ window.crypto.subtle.encrypt(/* ... */)
 
 ---
 class: middle
+
 # WebCrypto API
 
+.large[
 - n'utilise que des Promises
 - ne traite qu'avec des sources binaires (ArrayBuffers)
+]
 
 
 ---
 class: middle
+
 # Point Bonus
 
-Comme avec [`canPlayType`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canPlayType)
 
 - RSASSA-PKCS1-v1_5 / RSA-OAEP
 - AES-CBC / AES-GCM / AES-KW
 - HMAC
 - SHA-256 / SHA-384 / SHA-512
 
-<small>les navigateurs n'implémentent que les algos qu'ils estiment nécessaires</small>
+les navigateurs n'implémentent que les algos qu'ils estiment nécessaires
+
+<small>Comme avec [`canPlayType`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canPlayType)</small>
 
 
 ---
@@ -585,6 +678,15 @@ class: video
 # Démo : password less
 
 .large[<video src="./proxy_authkeys_demo.ogg">]
+
+
+---
+class: inverse, bottom-up, middle
+
+# Browser : des libs basées sur WebCryptoAPI
+
+https://gist.github.com/jo/8619441
+
 
 
 ---
@@ -603,6 +705,7 @@ layout: true
 
 ---
 class: middle, center, stickit
+
 # Ne jouez pas les apprentis sorciers
 
 ![Neveeeeer](./harry-never.gif)
@@ -610,14 +713,18 @@ class: middle, center, stickit
 
 ---
 class: middle
+
 # N'oubliez jamais que :
 
+.large[
 - la sécurité est inversement proportionelle à la simplicité d'utilisation
 - toute sécurité a un coût
+]
 
 
 ---
 class: middle, inverse
+
 # On arrête d'avoir peur, et on protège
 
 .large[[![Reddit Gaydeath](./reddit.jpg)](https://www.reddit.com/r/legaladvice/comments/3edf1s/im_a_gay_single_man_from_a_country_where_gaydeath/)]
