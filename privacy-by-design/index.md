@@ -16,10 +16,18 @@ class: center middle single
 
 # m4dz
 
-**Paranoïd Web Dino**
+**Paranoïd Web Dino & Tech Evangelist**
 
 .extras[
-[m4dz.net](https://m4dz.net) | [@m4d_z](https://twitter.com/m4d_z) | PGP [0xD4627C417D969710](http://m4dz.net/0xD4627C417D969710.asc)
+[m4dz.net](https://m4dz.net) | [@m4d_z](https://twitter.com/m4d_z) | PGP [0xD4627C417D969710](https://m4dz.net/0xD4627C417D969710.asc)
+]
+
+.org[
+## ![alwaysdata](../img/alwaysdata.svg)
+
+.extras[
+  [www.alwaysdata.com](https://www.alwaysdata.com)
+]
 ]
 
 
@@ -28,85 +36,21 @@ layout: false
 class: section bottom
 background-image: url(../img/placeholders/primate-ape-thinking-mimic.jpg)
 
-# Pourquoi faut-il se soucier de la vie privée ?
+# La _privacy_, on en est où ?
 
 
 ---
 layout: true
 
-.breadcrumb[Pourquoi faut-il se soucier de la vie privée ?]
+.breadcrumb[La _privacy_, on en est où ?]
 
 
 ---
-class: single middle center
+class: middle center bottom-up inverse
 
-# Nothing to hide
+![Bart Simpson est filmé dans une cabine d'essayage](./bart_filmed_in_cabin.gif)
 
-![Batman se fait arracher son masque par Superman, mais personne n'a rien à cacher](./batman-vs-superman.gif)
-
-???
-
-* Vous n'avez rien à cacher
-* Vous n'avez donc rien à craindre
-
-
----
-class: single middle center
-
-# Comment pouvez-vous en être sûr·e·s ?
-
-
----
-class: single middle center inverse
-
-# Vous ne pouvez pas [point]
-
-???
-* Vous ne pouvez pas en être certains
-
-
----
-class: middle center
-
-# Panopticon mental
-
-.small[
-  ![Belgrado Panopticon / Vicious Circle - Le schema d'une structure panoptique vue de haut ressemble à un œil qui vous espionne](./panopticon.jpg)
-]
-
-
-→ [Glen Greenwald - Why Privacy matters - Youtube](https://www.youtube.com/watch?v=pcSlowAhvUk)
-
-
----
-class: single inverse middle
-
-# Savez-vous à quoi servent les alarmes incendie ?
-
-
----
-layout: false
-class: section middle
-background-image: url(../img/placeholders/close-up-of-hand-feeding-on-tree-trunk.jpg)
-
-# État du business sur le Web en 2017
-
-
----
-layout: true
-
-.breadcrumb[État du business sur le Web en 2017]
-
-
----
-class: middle center
-
-# Le problème de la gratuité
-
-![Un poulet se prend un vent en vendant des câlins gratuits](./hugs.gif)
-
-???
-Dan Ariely & Charlie et la Chocolaterie
+# ~~Vous n'avez rien à craindre si vous n'avez rien à cacher~~
 
 
 ---
@@ -150,6 +94,33 @@ class: middle
 
 .center[
 ![une femme s'énerve violemment avec un doigt d'honneur pour exprimer un vif mécontentement](./middle-finger.gif)
+]
+
+
+---
+class: middle center
+
+# Le problème de la gratuité
+
+![Un poulet se prend un vent en vendant des câlins gratuits](./hugs.gif)
+
+???
+Dan Ariely & Charlie et la Chocolaterie
+
+
+---
+class: middle
+
+# Une histoire de données volées, mais pas vraiment finalement
+
+.center[
+![Logo de Cambridge Analytica en 2016 pendant la campagne Trump](./cambridge_analytica_logo_2016.png)
+]
+
+--
+
+.center[
+Logo de Cambridge Analytica en 2016, pendant la campagne Trump
 ]
 
 
@@ -228,7 +199,6 @@ Création de la CNIL
 * Le droit d'opposition
 * Le droit d'accès
 * Le droit de rectification
-
 
 --
 
@@ -418,7 +388,7 @@ class: medium
 
 **côté technique…**
 
-* Utilisez des outils de _dataflow analysis_ sur vos DB <br> → [Cornell university Library](https://arxiv.org/abs/1706.09479)
+* Utilisez des outils de confidentialité différentielle sur vos DB <br> → [Cornell university Library](https://arxiv.org/abs/1706.09479) | [Uber SQL DIfferential Privacy](https://github.com/uber/sql-differential-privacy)
 
 --
 
@@ -546,7 +516,7 @@ class: middle inverse
 # Tracer les parcours de la donnée
 
 .center[
-![une partie de Pacman en accéléré](./pacman.gif)
+![une partie de Pacman en accéléré](./life_of_brian.gif)
 ]
 
 ---
@@ -629,7 +599,7 @@ layout: true
 ---
 class: single inverse middle
 
-# **If you can, you shall**
+# **If you can, you must**
 
 ???
 
