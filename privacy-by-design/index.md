@@ -133,15 +133,11 @@ class: middle
 
 
 ---
-class: single middle inverse
+class: punchline, bottom
 
-# _Publicness_ ?
+> I call this device a Personal Information Telecommunication Agent, or Pita for short. The acronym also stand for Pain In The Ass, which it is equally likely to be, because having all that connectivity is going to destroy what's left of everyone's privacy.
 
-> Publicness is value. This is an argument I'll make that what's public is owned by the public — whether that's governments' actions or images taken in public space — and whenever that is diminished, it robs from us, the public.
-
-Jeff Jarvis. 2011
-
-→ [Jeff Jarvis - Privacy and Publicness and the power behind it - Youtube](https://www.youtube.com/watch?v=cVF5zPLPbvw)
+[David Gerrold, in Sm@rt Reseller, "future of computing" prediction, 1999](./pita.jpg)
 
 
 ---
@@ -501,7 +497,7 @@ class: middle
 
 
 ---
-class: middle inverse
+class: middle
 
 # Tracer les parcours de la donnée
 
@@ -510,7 +506,7 @@ class: middle inverse
 ]
 
 ---
-class: middle inverse
+class: middle
 
 # Gérer les identités
 
@@ -570,6 +566,19 @@ class: middle
 * agir chacun à son niveau
 * _Differential Privacy_
 ]
+
+
+---
+class: single middle inverse
+
+# _Publicness_
+
+> Publicness is value. This is an argument I'll make that what's public is owned by the public — whether that's governments' actions or images taken in public space — and whenever that is diminished, it robs from us, the public.
+
+Jeff Jarvis. 2011
+
+→ [Jeff Jarvis - Privacy and Publicness and the power behind it - Youtube](https://www.youtube.com/watch?v=cVF5zPLPbvw)
+
 
 
 ---
