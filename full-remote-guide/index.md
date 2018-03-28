@@ -90,7 +90,7 @@ class: middle center single inverse
 
 # Passer au travail à distance
 
-![Penguin with a hat is going to work](./penguin_go_work.`gif`)
+![Penguin with a hat is going to work](./penguin_go_work.gif)
 
 
 ---
@@ -100,7 +100,7 @@ class: middle
 
 .large[
 * meilleur découpage de vos journées
-* technologie !
+* l'appui de la technologie
 * fin du 9-17 (ou du 10-18)
 * hors la ville
 * meilleure qualité de vie
@@ -178,7 +178,7 @@ class: middle single
 ---
 class: middle single
 
-## «&nbsp;Ça n'est pas applicable chez nous.&nbsp;»
+## «&nbsp;Ça n'est pas applicable dans notre contexte d'activité.&nbsp;»
 
 
 ---
@@ -237,11 +237,25 @@ class: middle
 
 
 ---
-class: middle
+class: stickit
 
-# Do / Don't
+# Do
 
-[?]
+.large[
+* (pré-)occupez-vous des autres
+* soyez accueillant
+* ne vous contraignez pas
+]
+
+--
+
+# Don't
+
+.large[
+* ne restez pas dans votre coin
+* ne vous rythmez pas n'importe comment
+]
+
 
 ---
 layout: false
@@ -290,7 +304,7 @@ class: middle single inverse
 ---
 class: middle
 
-# Diffuser les savoir
+# Diffuser les savoirs
 
 .large[
 * bus-factor sur la communication
@@ -329,11 +343,24 @@ class: middle single inverse
 
 
 ---
-class: middle
+class: stickit
 
-# Do / Don't
+# Do
 
-[?]
+.large[
+* soyez présents sur les chans
+* partagez vos connaissances
+* discutez aussi d'autre-chose
+]
+
+--
+
+# Don't
+
+.large[
+* n'ignorez pas les problèmes
+* "asynchrone" n'est pas "associal"
+]
 
 
 ---
@@ -424,24 +451,6 @@ class: middle single
 ---
 class: middle single
 
-## Daily Standup Meeting
-
-
----
-class: middle single
-
-## Rétros
-
-
----
-class: middle single
-
-## Planning pokers / Preview techniques
-
-
----
-class: middle single
-
 ## Impliquez les gens
 
 .large[(dans les réunions)]
@@ -450,13 +459,19 @@ class: middle single
 ---
 class: middle single
 
-## Les outils ne sont que des outils
+## Daily Standup Meeting
 
 
 ---
 class: middle single
 
-## Abusez des vidéos-conférences
+## Rétros & Démos
+
+
+---
+class: middle single
+
+## Planning pokers / Preview techniques
 
 
 ---
@@ -469,6 +484,12 @@ class: middle single
 class: middle single
 
 ## Tchats & Status
+
+
+---
+class: middle single
+
+## Abusez des vidéos-conférences
 
 
 ---
@@ -496,11 +517,23 @@ class: middle
 
 
 ---
-class: middle
+class: stickit
 
-# Do / Don't
+# Do
 
-[?]
+.large[
+* travaillez où ça _vous_ convient
+* comme ça _vous_ convient
+* impliquez-vous, proposez
+]
+
+--
+
+# Don't
+
+.large[
+* ne faites pas bande à part
+]
 
 ---
 layout: false
@@ -567,6 +600,12 @@ class: middle single
 
 
 ---
+class: middle single inverse
+
+## Partez d'un principe de bienveillance
+
+
+---
 layout: false
 class: section middle
 background-image: url(../img/placeholders/peacock-animal-iridescent.jpg)
@@ -586,7 +625,7 @@ class: middle
 # Voir grossir l'équipe
 
 .large[
-* all out in the open
+* _all out in the open_
 * auto-organisation sage & responsable
 * évitez les micro-spots
 * organisez les verres au bar
@@ -678,11 +717,24 @@ class: middle
 
 
 ---
-class: middle
+class: stickit
 
-# Do / Don't
+# Do
 
-[?]
+.large[
+* partagez
+* diffusez
+* rencontrez
+]
+
+--
+
+# Don't
+
+.large[
+* ne forcez jamais
+* ne paniquez pas
+]
 
 ---
 layout: false
