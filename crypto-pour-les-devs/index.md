@@ -762,8 +762,8 @@ Un grand merci à [@aeris22](https://twitter.com/aeris22/) et [@OpenPony](https:
 
 - Moteur de présentation : [Remark](https://github.com/gnab/remark)
 
-.licence[
-![Cozy Cloud](../img/cozy.svg)
+.licence.round[
+![Alice in Wonderland Mad Hatter](../img/mad-hatter.gif)
 
 ![:ref]
 

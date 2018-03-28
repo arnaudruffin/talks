@@ -632,7 +632,6 @@ name: thanks
 
 ## Iconographie / Médias
 
-- [Belgrado - Panopticon / Vicious Circle album](https://belgrado.bandcamp.com/track/panopticon)
 - Icônes : [Linea](http://linea.io/) - [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 - [Photo by Leah Kelley from Pexels](https://www.pexels.com/photo/close-up-of-hand-feeding-on-tree-trunk-185941/)
 - [Photo by asim alnamat from Pexels](https://www.pexels.com/photo/ball-shaped-beach-blur-close-up-343720/)
@@ -647,7 +646,9 @@ name: thanks
 
 - Moteur de présentation : [Remark](https://github.com/gnab/remark)
 
-.licence[
+.licence.round[
+![Alice in Wonderland Mad Hatter](../img/mad-hatter.gif)
+
 ![:ref]
 
 disponible sous licence [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
