@@ -86,11 +86,11 @@ class: middle
 
 
 ---
-class: middle single inverse
+class: middle center single inverse
 
 # Passer au travail à distance
 
-![GIF REMOTE / WORK]
+![Penguin with a hat is going to work](./penguin_go_work.`gif`)
 
 
 ---
@@ -218,8 +218,9 @@ class: middle
 * transmettre les compétences
 ]
 
-![GIF WELCOME]
-
+.center[
+![Excited guy](./excited.gif)
+]
 
 ---
 class: middle
@@ -271,19 +272,20 @@ class: middle
 ]
 
 ---
-class: middle
+class: middle center
 
 # ou si on est seul à distance
 
-![GIF SAME SAME]
+![Same, but different, but still same!](same_but_different_but_same.gif)
 
 ---
 class: middle single inverse
 
-# virtuals open spaces
+# Virtual Openspaces
 
-![GIF OPEN]
-
+.center[
+![An old woman try a VR device](virtual_reality.gif)
+]
 
 ---
 class: middle
@@ -385,8 +387,9 @@ class: middle single inverse
 
 # On ne peut vous juger _que_ sur votre travail
 
-![GIF NO STRESS]
-
+.center[
+![A woman at deskaskfor taking it easy](take_it_easy.gif)
+]
 
 ---
 class: middle center single
@@ -524,7 +527,10 @@ class: middle single
 
 ## Vous ne valez pas moins que les local-workers
 
-![GIF CONFIDENCE DANCE]
+.center[
+![A man with blond hair](jealous.gif)
+]
+
 
 ---
 class: middle single
@@ -555,7 +561,10 @@ class: middle single
 
 ## Ne pas s'enfermer volontairement (Cabin Fever)
 
-![GIF CABIN FEVER]
+.center[
+![Gravity falls girl endlessly turn around](gravity_falls.gif)
+]
+
 
 ---
 layout: false
@@ -589,9 +598,12 @@ class: middle
 
 # Travailler au travers du globe
 
-![GIF WAKE UP]
+.center[
+![A student is waking up by its teacher applause](wake_up.gif)
 
 .large[Décaler vos horaires de travail]
+]
+
 
 
 ---
