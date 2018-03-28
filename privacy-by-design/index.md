@@ -88,16 +88,6 @@ class: middle center inverse
 
 
 ---
-class: middle
-
-# Des étudiant·e·s formé·e·s de travers aux nouvelles réglementations
-
-.center[
-![une femme s'énerve violemment avec un doigt d'honneur pour exprimer un vif mécontentement](./middle-finger.gif)
-]
-
-
----
 class: middle center
 
 # Le problème de la gratuité

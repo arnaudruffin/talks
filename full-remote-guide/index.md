@@ -81,7 +81,7 @@ class: middle
 .large[
 * vous qui avez envie de _remote_
 * vous qui pensez qu'on ne peut pas travailler à distance
-* vous qui imaginez que les rock-stars sont toutes au même endroit <small>(ou qu'elles vont démènager pour vous)</small>
+* vous qui imaginez que les rock-stars sont toutes au même endroit <small>(ou qu'elles vont déménager pour vous)</small>
 ]
 
 
@@ -264,7 +264,7 @@ class: middle
 ## dans une équipe entièrement distribuée
 
 .large[
-* tchats (IRC / XMPP / Mastodon / Slack…)
+* tchats (IRC / XMPP / Mattermost / Slack…)
 * en son (Mumble / WebRTC / Matrix…)
 * en vidéo (Skype / WebRTC…)
 * par email / listes de diffusions
