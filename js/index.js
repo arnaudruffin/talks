@@ -10,9 +10,17 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   let source = 'index.md'
-  if (query.lang) {
-    source = `index.${query.lang}.md`
+  if (query.lang || query.format) {
+    let modifiers = '.'
+
+    modifiers += query.lang ? `${query.lang}.` : null
+    modifiers += query.format ? `${query.format}.` : null
+
+    source = `index${modifiers}md`
   }
+
+  document.documentElement.setAttribute('lang', query.lang || 'fr')
+  if (query.format) document.body.classList.add(`format-${query.format}`)
 
   let canonical
   const links = document.getElementsByTagName('link')
@@ -32,7 +40,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   remark.macros.ref = function() {
-    url = query.lang? `${canonical}?lang=${query.lang}` : canonical
+    let search = []
+    if (query.lang) search.push(`lang=${query.lang}`)
+    if (query.format) search.push(`format=${query.format}`)
+
+    let url = search.length
+      ? `${canonical}?${search.join('&')}`
+      : canonical
+
     return `<div class="ref"><a href="${url}">${url}</a></div>`
   }
 
@@ -47,7 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
   slideshow.on('afterShowSlide', (slide) => {
     SVGInjector(document.querySelectorAll('.remark-visible [src*=icons]'))
 
-    if(slide.properties.name == 'thanks') {
+    if (slide.properties.name == 'thanks' &&
+        !/no-scroll/.test(slide.properties.class)) {
       setTimeout(() => {
         document.getElementById('slide-thanks').classList.add('scroll')
       }, 2000)
