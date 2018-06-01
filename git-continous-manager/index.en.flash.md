@@ -86,14 +86,14 @@ class:
 
 # Unit testing
 
-## <i class="fas fa-wrench"></i> Continous Integration
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#wrench"></use></svg> Continous Integration
 
 Jenkins, Travis, Gitlab CI, etc.
 
 .center[**VS**]
 
 
-## <i class="fas fa-code-branch"></i> Tests scripts
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#code-branch"></use></svg> Tests scripts
 
 ```bash
 #!/bin/sh
@@ -118,14 +118,14 @@ class:
 
 # Functional testing
 
-## <i class="fas fa-wrench"></i> Online tools and platforms
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#wrench"></use></svg> Online tools and platforms
 
 BrowserStack, Litmus, Sauce Labs, etc.
 
 .center[**VS**]
 
 
-## <i class="fas fa-code-branch"></i> Tests scripts
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#code-branch"></use></svg> Tests scripts
 
 ```bash
 #!/bin/sh
@@ -150,11 +150,11 @@ class:
 
 # Build
 
-## <i class="fas fa-wrench"></i> Continuous Integration tools
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#wrench"></use></svg> Continuous Integration tools
 
 .center[**VS**]
 
-## <i class="fas fa-code-branch"></i> Build scripts (e.g. w/ Docker)
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#code-branch"></use></svg> Build scripts (e.g. w/ Docker)
 
 ```bash
 #!/bin/sh
@@ -179,13 +179,13 @@ class:
 
 # Delivery
 
-## <i class="fas fa-wrench"></i> Filesystems
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#wrench"></use></svg> Filesystems
 
 Userspace filesystem, SSH/SFTP, Rsync, etc.
 
 .center[**VS**]
 
-## <i class="fas fa-code-branch"></i> Checkout in production dir
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#code-branch"></use></svg> Checkout in production dir
 
 ```bash
 #!/bin/sh
@@ -209,11 +209,11 @@ class:
 
 # Migrations
 
-## <i class="fas fa-wrench"></i> CI Plugins / Scripts
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#wrench"></use></svg> CI Plugins / Scripts
 
 .center[**VS**]
 
-## <i class="fas fa-code-branch"></i> Run migrations
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#code-branch"></use></svg> Run migrations
 
 ```bash
 #!/bin/sh
@@ -240,11 +240,11 @@ class:
 
 # Features-flipping
 
-## <i class="fas fa-wrench"></i> Feature flags libraries / tools
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#wrench"></use></svg> Feature flags libraries / tools
 
 .center[**VS**]
 
-## <i class="fas fa-code-branch"></i> Flip using config files
+## <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#code-branch"></use></svg> Flip using config files
 
 .large[
 - Use INI files for _ACL_/_Perms_/_Flags_
