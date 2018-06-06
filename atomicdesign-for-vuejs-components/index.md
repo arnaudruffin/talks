@@ -138,11 +138,19 @@ layout: true
 
 
 ---
-class: code middle
+class: code vertical middle center
 
 # Organisation
 
 ![Atomic design components tree](components-tree.png)
+
+
+---
+class: code vertical middle center
+
+# ~components/pages/app.vue
+
+![Vue.js App component](vuejs_app-component.png)
 
 
 ---
@@ -268,8 +276,6 @@ https://tzi.fr/slides/riviera2018-bem/
 class: single middle center
 
 ![Prince Harry drop the mic](boom-2.gif)
-
-# **Boom!**
 
 
 ---
