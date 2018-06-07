@@ -9,7 +9,7 @@ L'atomic design dans une architecture orientée composants
 
 
 ---
-class: tiles center middle
+class: tiles logos center middle
 
 # Kézako ?
 
@@ -102,7 +102,7 @@ layout: true
 
 
 ---
-class: code
+class: carbon
 
 # Les composants
 
@@ -110,14 +110,14 @@ class: code
 
 
 ---
-class: code middle
+class: carbon middle
 
 # Choisissez bien votre langage de templating
 
 ![Vue.js Include template](vuejs_include-template.png)
 
 ---
-class: code middle
+class: carbon middle
 
 # CSS… scoped?
 
@@ -138,7 +138,7 @@ layout: true
 
 
 ---
-class: code vertical middle center
+class: carbon vertical middle center
 
 # Organisation
 
@@ -146,7 +146,7 @@ class: code vertical middle center
 
 
 ---
-class: code vertical middle center
+class: carbon vertical middle center
 
 # ~components/pages/app.vue
 
@@ -166,7 +166,7 @@ class: middle
 
 
 ---
-class: inverse code middle
+class: inverse carbon middle
 
 # Importer dans PatternLab
 
@@ -210,7 +210,7 @@ class: middle
 
 
 ---
-class: code middle
+class: carbon middle
 
 # Démo : les variables
 
@@ -218,7 +218,7 @@ class: code middle
 
 
 ---
-class: code middle
+class: carbon middle
 
 # Démo : Les molécules
 
@@ -226,7 +226,7 @@ class: code middle
 
 
 ---
-class: code middle
+class: carbon middle
 
 # Démo : les organismes
 
@@ -247,13 +247,13 @@ class: middle
 
 
 ---
-class: code middle
+class: carbon middle
 
 ![Vue.js CSS component](vuejs_component-css.png)
 
 
 ---
-class: code middle
+class: carbon middle
 
 ![Vue.js CSS component import](vuejs_component-import-style.png)
 
