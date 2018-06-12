@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (query.lang || query.format) {
     let modifiers = '.'
 
-    modifiers += query.lang ? `${query.lang}.` : null
-    modifiers += query.format ? `${query.format}.` : null
+    modifiers += query.lang ? `${query.lang}.` : ''
+    modifiers += query.format ? `${query.format}.` : ''
 
     source = `index${modifiers}md`
   }
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
         !/no-scroll/.test(slide.properties.class)) {
       setTimeout(() => {
         document.getElementById('slide-thanks').classList.add('scroll')
-      }, 2000)
+      }, 600)
     }
 
     if (/video/.test(slide.properties.class)) {
