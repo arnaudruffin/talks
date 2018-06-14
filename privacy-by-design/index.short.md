@@ -9,10 +9,25 @@ De l'autonomie de l'individu sur ses données personnelles
 
 
 ---
-class: inverse single right
-background-image: url(helmet.jpg)
+class: inverse single right bottom
+background-image: url(superman.jpg)
 
-# **Réglementations, Logiciels,<br>et Données personnelles**
+# **Comment on se perçoit<br>en utilisant nos apps**
+
+
+---
+class: single right
+background-image: url(kid-superhero.jpg)
+
+# **Comment leurs éditeurs <br>nous perçoivent**
+
+
+---
+class: middle center single
+
+.large[
+![Up movie, Squirrel gif @Giphy](squirrel.gif)
+]
 
 
 ---
@@ -30,11 +45,11 @@ layout: true
 
 
 ---
-class: single middle
+class: single inverse
+background-image: url(thermocells.png)
 
-# La Data, ~~pétrole~~ bulle économique du 21e siècle
+# La Data, bulle économique<br>du XXIe siècle
 
-???
 
 ---
 class: single middle
@@ -133,7 +148,7 @@ Report from Information and Privacy Commissioner of Ontario, Canada, the Dutch D
 ---
 class: middle
 
-# 7 laws of identity…
+# 7 laws of identity
 
 .large[
 
@@ -158,9 +173,24 @@ class: middle
 
 
 ---
+class: middle
+
+# PETs, vos nouveaux <del>animaux</del> outils de compagnie
+
+.large[
+* Chiffrement
+* Gestion des métadonnées et des permissions
+* Vérification légale intégrées au code
+* Gouvernance des données
+* Gestion des identités
+]
+
+https://iapp.org/news/a/2008-05-introduction-to-privacy-enhancing-technologies/
+
+---
 class: single inverse middle
 
-# … en pratique :
+# En pratique :
 
 
 ---
@@ -232,7 +262,7 @@ class: medium
 ---
 class: medium
 
-# Implication de l'utilisateur·trice
+# Expérience utilisateur
 
 .large[
 * Founissez des réglages simples et des notices claires à valider
@@ -245,7 +275,7 @@ class: medium
 .large[
 **côté technique…**
 
-* Utilisez des outils de confidentialité différentielle sur vos DB<br>→ [Cornell university Library](https://arxiv.org/abs/1706.09479) | [Uber SQL DIfferential Privacy](https://github.com/uber/sql-differential-privacy)
+* Utilisez les frameworks de notification pour ne pas polluer (toastr, Notify.js…)
 ]
 
 --
@@ -279,12 +309,11 @@ class: medium
 .large[
 ** côté technique…**
 
-* Utilisez les frameworks de notification pour ne pas polluer (toastr, Notify.js…)
+* Mettez en place des APIs documentées (Swagger, Apiary…) et utilisables
 ]
 
 --
 .large[
-* Mettez en place des APIs documentées (Swagger, Apiary…) et utilisables
 * Utilisez des formats de données ouverts (XML, JSON…)
 ]
 
@@ -292,30 +321,6 @@ class: medium
 .large[
 * `rm -rf /`
 ]
-
-
----
-layout: false
-class: section bottom
-background-image: url(../img/placeholders/bridge-wood-walk-passway.jpg)
-
-# Sauf que ça n'est pas suffisant
-
-
----
-layout: true
-
-.breadcrumb[Sauf que ça n'est pas suffisant]
-
-
----
-class: inverse bottom punchline
-
-# Espérer est illusoire
-
-> La _privacy by design_ est complètement aux antipodes de la souveraineté numérique des individus&nbsp;: on fait sans les individus, on protège la vie privée sans définir ce que c'est.
-
-Fabrice Rochelandet. Souveraineté numérique et modèle d'affaires. In: Numérique, reprendre le contrôle. Framasoft: 2016, p.65
 
 
 ---
@@ -338,36 +343,82 @@ class: middle
 
 
 ---
-class: middle
+class: middle center
 
 # Tracer les parcours de la donnée, pas des utilisateurs
 
-.center[
-![une partie de Pacman en accéléré](./life_of_brian.gif)
-]
+![Life of Brian: you don't need to follow everybody](./life_of_brian.gif)
 
 ---
-class: middle
+class: middle center
 
 # Gérer les identités
 
-.center[
 ![Un homme apparaît en boucle pour saluer le public](./clones.gif)
+
+
+---
+class: middle center
+
+# La pseudonimisation, Graal de l'analyse de données
+
+![jennifer love hewitt whos name i always forget GIF @Giphy](summer.gif)
+
+[Why Anonymous Data Sometimes Isn't, a Netflix story](https://www.wired.com/2007/12/why-anonymous-data-sometimes-isnt/)
+
+
+---
+class: single inverse middle
+
+.center[
+# **Differential privacy**
+
+![A spining coin GIF @Giphy](coin.gif)
+]
+
+.large[
+* [Differential privacy @Wikipedia](https://en.wikipedia.org/wiki/Differential_privacy)
+* [Harvard University Privacy Tools Project](https://privacytools.seas.harvard.edu/differential-privacy)
+* [Cornell university Library](https://arxiv.org/abs/1706.09479)
+* [Uber SQL DIfferential Privacy](https://github.com/uber/sql-differential-privacy)
 ]
 
 
 ---
 layout: false
-class: section
+class: section bottom
 background-image: url(../img/placeholders/egg-hammer-threaten-violence.jpg)
 
-# Dépasser _Privacy by Design_
+# Penser la vie privée autrement
 
 
 ---
 layout: true
 
-.breadcrumb[Dépasser _Privacy by Design_]
+.breadcrumb[Penser la vie privée autrement]
+
+
+---
+class: inverse bottom punchline
+
+# Espérer est illusoire
+
+> La _privacy by design_ est complètement aux antipodes de la souveraineté numérique des individus&nbsp;: on fait sans les individus, on protège la vie privée sans définir ce que c'est.
+
+Fabrice Rochelandet. Souveraineté numérique et modèle d'affaires. In: Numérique, reprendre le contrôle. Framasoft: 2016, p.65
+
+
+---
+class: middle
+
+# _Privacy by default_
+
+.large[
+* assure qu'un minimum de données est en jeu
+* simplifie le processus pour les utilisateurs·trices
+* évite les difficultés dans les réglages de confidentialité
+* force _idéalement_ le niveau de protection maximal _par défaut_
+]
 
 
 ---
@@ -384,29 +435,25 @@ class: middle
 
 
 ---
-class: middle
+class: single middle
 
-# _Privacy by default_, alors ?
-
-.large[
-* assure qu'un minimum de données est en jeu
-* simplifie le processus pour les utilisateurs·trices
-* évite les difficultés dans les réglages de confidentialité
-* force _idéalement_ le niveau de protection maximal _par défaut_
-]
+# **Code is Law**
 
 
 ---
-class: middle
+class: single middle
 
-# _ Privacy by using_, plutôt ?
+# **Le développeur est politique**
 
-.large[
-* sensibiliser les usages
-* lancer des alertes
-* agir chacun à son niveau
-* _Differential Privacy_
-]
+
+---
+class: middle tiles
+
+# _ Privacy by using_
+
+* <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#user-shield"/></svg> sensibiliser les usages
+* <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#bullhorn"/></svg>lancer des alertes
+* <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#sitemap"/></svg>agir chacun à son niveau
 
 ---
 class: punchline bottom
@@ -453,6 +500,10 @@ background-image: url('../img/placeholders/collaborate.jpg')
 name: thanks
 
 # Merci !
+
+## Icônes
+
+- [FontAwesome](https://fontawesome.com/)
 
 ## Polices de caractère
 
