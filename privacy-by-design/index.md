@@ -9,26 +9,38 @@ De l'autonomie de l'individu sur ses données personnelles
 
 
 ---
-name: speaker
-class: center middle single
+class: inverse single right bottom
+background-image: url(superman.jpg)
 
-![mad hatter](../img/m4dz.jpg)
+# **Comment on se perçoit<br>en utilisant nos apps**
 
-# m4dz
 
-**Paranoïd Web Dino & Tech Evangelist**
+---
+class: single right
+background-image: url(kid-superhero.jpg)
 
-.extras[
-[m4dz.net](https://m4dz.net) | [@m4d_z](https://twitter.com/m4d_z) | PGP [0xD4627C417D969710](https://m4dz.net/0xD4627C417D969710.asc)
+# **Comment leurs éditeurs <br>nous perçoivent**
+
+
+---
+class: middle center single
+
+.large[
+![Up movie, Squirrel gif @Giphy](squirrel.gif)
 ]
 
-.org[
-## ![alwaysdata](../img/alwaysdata.svg)
 
-.extras[
-  [www.alwaysdata.com](https://www.alwaysdata.com)
+---
+class: middle center
+
+# Le biais de gratuité
+
+.large[
+![](free-food.gif)
 ]
-]
+
+???
+Dan Ariely le chocolat
 
 
 ---
@@ -46,19 +58,11 @@ layout: true
 
 
 ---
-class: middle center bottom-up inverse
+class: single inverse
+background-image: url(thermocells.png)
 
-![Bart Simpson est filmé dans une cabine d'essayage](./bart_filmed_in_cabin.gif)
+# La Data, bulle économique<br>du XXIe siècle
 
-# ~~Vous n'avez rien à craindre si vous n'avez rien à cacher~~
-
-
----
-class: single middle
-
-# La Data, ~~pétrole~~ bulle économique du 21e siècle
-
-???
 
 ---
 class: single middle
@@ -88,20 +92,9 @@ class: middle center inverse
 
 
 ---
-class: middle center
-
-# Le problème de la gratuité
-
-![Un poulet se prend un vent en vendant des câlins gratuits](./hugs.gif)
-
-???
-Dan Ariely & Charlie et la Chocolaterie
-
-
----
 class: middle
 
-# Une histoire de données volées, mais pas vraiment finalement
+# Une histoire de données _pas vraiment_ volées
 
 .center[
 ![Logo de Cambridge Analytica en 2016 pendant la campagne Trump](./cambridge_analytica_logo_2016.png)
@@ -143,84 +136,15 @@ class: punchline, bottom
 ---
 layout: false
 class: section bottom
-background-image: url(../img/placeholders/pen-idea-bulb-paper.jpg)
+background-image: url(../img/placeholders/nostalgy-collector-michelle-heavy-metal.jpg)
 
-# _Privacy by design_, la réponse au problème ?
+# Conception _Privacy by design_
 
 
 ---
 layout: true
 
-.breadcrumb[_Privacy by design_, la réponse au problème ?]
-
-
----
-class:
-
-# Rappel historique
-
-* 1971 : SAFARI
-
-???
-
-Centralisation sur bande magnétique des identités des citoyens français
-
---
-
-* 1977 : _Freedom of Information and Protection of Privacy Act_ (US)
-
-???
-
-Loi sur les libertés et l'informatique aux US
-
---
-
-* 1978 : Loi _Informatique et Libertés_
-
-???
-
-Création de la CNIL
-
-* Le droit d'information
-* Le droit d'opposition
-* Le droit d'accès
-* Le droit de rectification
-
---
-
-* 1982 : _Freedom of Information_ (Canada)
-
-???
-
-Loi sur les libertés et l'informatique aux Canada
-
---
-
-* 1991 : décret sur les Renseignements Généraux
-
-???
-
-la collecte, la conservation et le traitement dans les fichiers des services des renseignements généraux d'informations nominatives relatives aux personnes majeures
-
---
-
-* 1995 : **Privacy by design** (Report from Information and Privacy Commissioner of Ontario, Canada, the Dutch Data Protection Authority and the Netherlands Organisation for Applied Scientific Research)
-
---
-
-* 2004 : Application de la loi aux données personnelles
-
-???
-
-Élargissement de la loi de 78 aux données à caractère personnel
-
---
-
-* 2010 : 32e conference internationale des commissaires à la protection des données et de la vie privée, reconnaît la _Privacy by design_ comme un "élément essentiel de la protection fondamentale de la vie privée"
-
---
-
-* 2018 : GDPR - _Data protection by default_
+.breadcrumb[Conception _Privacy by design_]
 
 
 ---
@@ -240,7 +164,7 @@ class: middle
 ---
 class: middle
 
-# Problème : Accountability est un principe <br> _a posteriori_
+# Préquelle : Accountability pattern
 
 .center[
 ![Un homme en smoking au volant d'une voiture bois un cocktail en en blâmant un autre sur l'accident qu'il a créé](./accident-you-asshole.gif)
@@ -248,32 +172,22 @@ class: middle
 
 
 ---
-class: single inverse middle
+class: middle center inverse
 
-# Il faut un modèle de conception qui prenne en compte la vie privée
+# 1995 : Privacy by Design
 
+![Mickey has an idea](idea.gif)
 
----
-layout: false
-class: section bottom
-background-image: url(../img/placeholders/nostalgy-collector-michelle-heavy-metal.jpg)
-
-# Conception _Privacy by design_
-
-
----
-layout: true
-
-.breadcrumb[Conception _Privacy by design_]
+???
+Report from Information and Privacy Commissioner of Ontario, Canada, the Dutch Data Protection Authority and the Netherlands Organisation for Applied Scientific Research
 
 
 ---
 class: middle
 
-# Les 7 lois fondamentales
+# 7 laws of identity
 
 .large[
-(_7 laws of identity_)
 
 1. Proactive not reactive; Preventative not remedial
 1. Privacy as the default setting
@@ -296,9 +210,24 @@ class: middle
 
 
 ---
+class: middle
+
+# PETs, vos nouveaux <del>animaux</del> outils de compagnie
+
+.large[
+* Chiffrement
+* Gestion des métadonnées et des permissions
+* Vérification légale intégrées au code
+* Gouvernance des données
+* Gestion des identités
+]
+
+https://iapp.org/news/a/2008-05-introduction-to-privacy-enhancing-technologies/
+
+---
 class: single inverse middle
 
-# Et en pratique alors ?
+# En pratique :
 
 
 ---
@@ -306,126 +235,345 @@ class: medium
 
 # Lors de la conception
 
+.large[
 * Concevez des check-list impliquant toutes les enjeux de données
 * Assurez-vous que tous les intervenants sont sensibilisés
 * Ne demandez pas plus de permissions que nécessaire
 * Auditez, testez, pen testez !
+]
 
 --
-
+.large[
 **côté technique…**
 
 * Chaque feature valide la check-list, en tests automatisés
+]
 
 --
 
+.large[
 * Les jeux de tests ne viennent pas de la prod !
+]
 
 --
-
+.large[
 * Oubliez les frameworks de permissions tous prêts
+]
 
 --
-
+.large[
 * Tests fonctionnels sur des environnements multiples
+]
+
+
+---
+class: middle center
+
+# Exemple : Checklist ([GDPRChecklist.io](https://gdprchecklist.io/))
+
+.large[
+![](gdprchecklist.io.png)
+]
+
+
+---
+class: middle center
+
+# Exemple : Permissions
+
+.large[
+![](consent_1.png)
+]
+
+---
+class: middle center
+
+# Exemple : Permissions
+
+.large[
+![](consent_2.png)
+]
 
 ---
 class: medium
 
 # Lors de l'exécution
 
+.large[
 * Minimisez la collecte de données
 * Minimisez les données échangées avec les services tiers
 * Pseudonimisez la donnée
 * Vérifiez les formulaires (contact, login, assistance…)
 * Supprimez régulièrement la donnée collectée
+]
 
 --
-
+.large[
 ** côté technique…**
 
 * Utilisez des services de gestion d'identités (OpenID…)
+]
 
 --
-
+.large[
 * Hashez / chiffrez / tokenizez les entrées
-* Permutez et substituez les données sensibles
+* Permutez, substituez, segmentez les données sensibles (Matomo…)
+]
 
 --
-
-* Segmentez vos jeux de données _via_ des outils statistiques (Piwik…)
-
---
-
+.large[
 * Faites passer des cron !
+]
+
+---
+class: middle center code
+
+# Exemple : OpenID
+
+.large[
+![](oidc-redux.png)
+]
+
+→ [github://IdentityModel/oidc-client-js](https://github.com/IdentityModel/oidc-client-js)
+
+---
+class: middle center code
+
+# Exemple : RSA Signature
+
+.large[
+![](jsencrypt-sign.png)
+]
+
+
+---
+class: middle center code
+
+# Exemple : RSA Encryption
+
+.large[
+![](jsencrypt-enc-html.png)
+]
+
+
+---
+class: middle center code
+
+# Exemple : RSA Encryption
+
+.large[
+![](jsencrypt-enc.png)
+]
+
+
+---
+class: middle
+
+# Browser : libs fournissant la couche Crypto
+
+.large[
+- jsencrypt
+- js-nacl
+- jwcrypto
+
+→ [gist://jo:8619441](https://gist.github.com/jo/8619441)
+]
+
+
 
 ---
 class: medium
 
-# Implication de l'utilisateur·trice
+# Expérience utilisateur
 
-* Founissez des réglages simples et notices claires
-* Facilitez les souscriptions d'options via ces notices
+.large[
+* Founissez des réglages simples et des notices claires à valider
 * N'exigez pas de passer par des services externes
 * Pas de partage sur les réseaux par défaut
 * Séparez les consentements (_shared data_ vs _analytics_)
+]
 
 --
-
+.large[
 **côté technique…**
 
-* Utilisez des outils de confidentialité différentielle sur vos DB <br> → [Cornell university Library](https://arxiv.org/abs/1706.09479) | [Uber SQL DIfferential Privacy](https://github.com/uber/sql-differential-privacy)
+* Utilisez les frameworks de notification pour ne pas polluer (toastr, Notify.js…)
+]
 
 --
-
-* Utilisez de vrais outils d'identités décentralisées (OpenID…), pas de logins _via_ les réseaux sociaux
+.large[
+* Utilisez des outils d'identités décentralisées (OpenID…), pas les réseaux sociaux
+]
 
 --
-
+.large[
 * Plus de jsSocials ~~par défaut~~ par pitié…
+]
 
 --
+.large[
+* Utilisez des outils de trace d'usages respecteux
+]
 
-* Utilisez des outils de trace d'usages respecteux (Piwik…)
+
+---
+class: middle center code
+
+# Exemple : SweetAlert
+
+.large[
+![](swal.png)
+]
+
+
+---
+class: middle center code
+
+# Exemple : SweetAlert
+
+.large[
+![](sweetalert.png)
+]
+
+
+---
+class: middle center code
+
+# Exemple : SweetAlert
+
+.large[
+![](sweetalert_dom.png)
+]
+
+
+---
+class: middle
+
+# Exemple : SweetAlert
+
+.large[
+- configurable
+- chainable
+- promises
+- compatible frameworks composants
+
+→ [github://sweetalert2:sweetalert2](https://github.com/sweetalert2/sweetalert2)
+]
+
+
+---
+class: middle center
+
+# Exemple : [Traces d'usage avec Matomo](https://matomo.org/blog/2012/04/how-to-use-piwik-to-track-mobile-apps-activity-clicks-phones-errors-etc/)
+
+.large[
+![](matomo.png)
+]
+
 
 ---
 class: medium
 
 # Fin du cycle de vie
 
+.large[
 * Rappelez régulièrement les utilisateurs·trices à leur confidentialité
 * Facilitez l'export de données
 * Supprimez les données des comptes supprimés
 * Supprimez les données à la fermeture du service
+]
 
 --
-
+.large[
 ** côté technique…**
 
-* Utilisez les frameworks de notification pour ne pas polluer (toastr, Notify.js…)
-
---
-
 * Mettez en place des APIs documentées (Swagger, Apiary…) et utilisables
-* Utilisez des formats de données ouverts (XML, JSON…)
+]
 
 --
+.large[
+* Utilisez des formats de données ouverts (XML, JSON…)
+]
 
+--
+.large[
 * `rm -rf /`
+]
+
+
+---
+class: middle
+
+# OWASP : top 10 privacy risks
+
+.large[
+1.  Web Application Vulnerabilities
+2.  Operator-sided Data Leakage
+3.  Insufficient Data Breach Response
+4.  Insufficient Deletion of personal data
+5.  Non-transparent Policies, Terms and Conditions
+6.  Collection of data not required for the primary purpose
+7.  Sharing of data with third party
+8.  Outdated personal data
+9.  Missing or Insufficient Session Expiration
+10. Insecure Data Transfer
+]
+
+
+---
+class: middle center
+
+# Tracer les parcours de la donnée, pas des utilisateurs
+
+![Life of Brian: you don't need to follow everybody](./life_of_brian.gif)
+
+---
+class: middle center
+
+# Gérer les identités
+
+![Un homme apparaît en boucle pour saluer le public](./clones.gif)
+
+
+---
+class: middle center
+
+# La pseudonimisation, Graal de l'analyse de données
+
+![jennifer love hewitt whos name i always forget GIF @Giphy](summer.gif)
+
+[Why Anonymous Data Sometimes Isn't, a Netflix story](https://www.wired.com/2007/12/why-anonymous-data-sometimes-isnt/)
+
+
+---
+class: single inverse middle
+
+.center[
+# **Differential privacy**
+
+![A spining coin GIF @Giphy](coin.gif)
+]
+
+.large[
+* [Differential privacy @Wikipedia](https://en.wikipedia.org/wiki/Differential_privacy)
+* [Harvard University Privacy Tools Project](https://privacytools.seas.harvard.edu/differential-privacy)
+* [Cornell university Library](https://arxiv.org/abs/1706.09479)
+* [Uber SQL DIfferential Privacy](https://github.com/uber/sql-differential-privacy)
+]
 
 
 ---
 layout: false
 class: section bottom
-background-image: url(../img/placeholders/bridge-wood-walk-passway.jpg)
+background-image: url(../img/placeholders/egg-hammer-threaten-violence.jpg)
 
-# Sauf que ça n'est pas suffisant
+# Penser la vie privée autrement
 
 
 ---
 layout: true
 
-.breadcrumb[Sauf que ça n'est pas suffisant]
+.breadcrumb[Penser la vie privée autrement]
 
 
 ---
@@ -441,92 +589,14 @@ Fabrice Rochelandet. Souveraineté numérique et modèle d'affaires. In: Numéri
 ---
 class: middle
 
-# OWASP : top 10 privacy risks
-
-.medium[
-1.  Web Application Vulnerabilities
-2.  Operator-sided Data Leakage
-3.  Insufficient Data Breach Response
-4.  Insufficient Deletion of personal data
-5.  Non-transparent Policies, Terms and Conditions
-6.  Collection of data not required for the primary purpose
-7.  Sharing of data with third party
-8.  Outdated personal data
-9.  Missing or Insufficient Session Expiration
-10. Insecure Data Transfer
-]
-
-
----
-class: middle
-
-# Les PETs <br> (_Privacy Enhancing Technologies_)
+# _Privacy by default_
 
 .large[
-* protéger la donnée personnelle
-* s'assurer du consentement
-* minimiser les usages
-* assurer un audit des informations retenues
+* assure qu'un minimum de données est en jeu
+* simplifie le processus pour les utilisateurs·trices
+* évite les difficultés dans les réglages de confidentialité
+* force _idéalement_ le niveau de protection maximal _par défaut_
 ]
-
----
-class: middle
-
-# PETs existants
-
-.large[
-* anonymisation : mac / ip address spoofing, emails jetables, pseudonymat, chiffrement, Tor…
-* Relais d'identification : OpenID, France Connect…
-* Personnal Data Store
-* EPID : Aevatar…
-]
-
----
-class: middle
-
-# PETs à venir
-
-.large[
-* anonymous credentials
-* limited disclosure technologies
-* data transaction logs
-* etc
-]
-
-→ initiatives comme [PrivacyTech](https://www.privacytech.fr)
-
-
----
-class: middle
-
-# Tracer les parcours de la donnée
-
-.center[
-![une partie de Pacman en accéléré](./life_of_brian.gif)
-]
-
----
-class: middle
-
-# Gérer les identités
-
-.center[
-![Un homme apparaît en boucle pour saluer le public](./clones.gif)
-]
-
-
----
-layout: false
-class: section
-background-image: url(../img/placeholders/egg-hammer-threaten-violence.jpg)
-
-# Dépasser _Privacy by Design_
-
-
----
-layout: true
-
-.breadcrumb[Dépasser _Privacy by Design_]
 
 
 ---
@@ -543,29 +613,15 @@ class: middle
 
 
 ---
-class: middle
+class: single middle
 
-# _Privacy by default_, alors ?
-
-.large[
-* assure qu'un minimum de données est en jeu
-* simplifie le processus pour les utilisateurs·trices
-* évite les difficultés dans les réglages de confidentialité
-* force _idéalement_ le niveau de protection maximal _par défaut_
-]
+# **Code is Law**
 
 
 ---
-class: middle
+class: single middle
 
-# _ Privacy by using_, plutôt ?
-
-.large[
-* sensibiliser les usages
-* lancer des alertes
-* agir chacun à son niveau
-* _Differential Privacy_
-]
+# **Le développeur est politique**
 
 
 ---
@@ -580,31 +636,14 @@ Jeff Jarvis. 2011
 → [Jeff Jarvis - Privacy and Publicness and the power behind it - Youtube](https://www.youtube.com/watch?v=cVF5zPLPbvw)
 
 
-
 ---
-layout: false
-class: section middle
-background-image: url(../img/placeholders/cold-dark-eerie-fear.jpg)
+class: middle tiles
 
-# C'était pas clair ?
+# _ Privacy by using_
 
-
----
-layout: true
-
-.breadcrumb[C'était pas clair ?]
-
-
----
-class: single inverse middle
-
-# **If you can, you must**
-
-???
-
-- art 25
-- sensibilisation
-
+* <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#user-shield"/></svg> sensibiliser les usages
+* <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#bullhorn"/></svg>lancer des alertes
+* <svg><use xlink:href="../img/icons/fontawesome/fa-solid.svg#sitemap"/></svg>agir chacun à son niveau
 
 ---
 class: punchline bottom
@@ -614,6 +653,29 @@ class: punchline bottom
 --
 
 Déclaration universelle des droits de l'homme. Article 12, 1948
+
+
+---
+name: speaker
+class: center middle single
+
+![mad hatter](../img/m4dz.jpg)
+
+# m4dz
+
+**Paranoïd Web Dino & Tech Evangelist**
+
+.extras[
+[m4dz.net](https://m4dz.net) | [@m4d_z](https://twitter.com/m4d_z) | PGP [0xD4627C417D969710](https://m4dz.net/0xD4627C417D969710.asc)
+]
+
+.org[
+## ![alwaysdata](../img/alwaysdata.svg)
+
+.extras[
+  [www.alwaysdata.com](https://www.alwaysdata.com)
+]
+]
 
 
 ---
@@ -629,13 +691,11 @@ name: thanks
 
 # Merci !
 
-## Iconographie / Médias
+## Icônes
 
-- Icônes : [Linea](http://linea.io/) - [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
-- [Photo by Leah Kelley from Pexels](https://www.pexels.com/photo/close-up-of-hand-feeding-on-tree-trunk-185941/)
-- [Photo by asim alnamat from Pexels](https://www.pexels.com/photo/ball-shaped-beach-blur-close-up-343720/)
+- [FontAwesome](https://fontawesome.com/)
 
-## Fontes
+## Polices de caractère
 
 - Titrage : [Sinzano](http://typodermicfonts.com/sinzano/) by Typodermic http://typodermicfonts.com - [Fontspring webfont EULA](https://www.fontspring.com/licenses_text/lv4e5lv2k2)
 - Intertitres & labeur : [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro) by Adobe https://github.com/adobe-fonts - [Open Font Licence](https://raw.githubusercontent.com/adobe-fonts/source-sans-pro/master/LICENSE.txt)
