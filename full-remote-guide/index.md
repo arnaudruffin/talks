@@ -9,29 +9,6 @@ Guide de survie en environnement distant
 
 
 ---
-name: speaker
-class: center middle single
-
-![mad hatter](../img/m4dz.jpg)
-
-# m4dz
-
-**Paranoïd Web Dino & Tech Evangelist**
-
-.extras[
-[m4dz.net](https://m4dz.net) | [@m4d_z](https://twitter.com/m4d_z) | PGP [0xD4627C417D969710](https://m4dz.net/0xD4627C417D969710.asc)
-]
-
-.org[
-## ![alwaysdata](../img/alwaysdata.svg)
-
-.extras[
-  [www.alwaysdata.com](https://www.alwaysdata.com)
-]
-]
-
-
----
 layout: false
 class: section bottom
 background-image: url(../img/placeholders/book-sunglasses-old-nostalgic.jpg)
@@ -237,8 +214,9 @@ class: middle
 
 
 ---
-class: stickit
+class: stickit middle
 
+.col[
 # Do
 
 .large[
@@ -246,14 +224,17 @@ class: stickit
 * soyez accueillant
 * ne vous contraignez pas
 ]
+]
 
 --
 
+.col[
 # Don't
 
 .large[
 * ne restez pas dans votre coin
 * ne vous rythmez pas n'importe comment
+]
 ]
 
 
@@ -343,8 +324,9 @@ class: middle single inverse
 
 
 ---
-class: stickit
+class: stickit middle
 
+.col[
 # Do
 
 .large[
@@ -352,14 +334,17 @@ class: stickit
 * partagez vos connaissances
 * discutez aussi d'autre-chose
 ]
+]
 
 --
 
+.col[
 # Don't
 
 .large[
 * n'ignorez pas les problèmes
 * "asynchrone" n'est pas "associal"
+]
 ]
 
 
@@ -517,8 +502,9 @@ class: middle
 
 
 ---
-class: stickit
+class: stickit middle
 
+.col[
 # Do
 
 .large[
@@ -526,13 +512,15 @@ class: stickit
 * comme ça _vous_ convient
 * impliquez-vous, proposez
 ]
+]
 
 --
-
+.col[
 # Don't
 
 .large[
 * ne faites pas bande à part
+]
 ]
 
 ---
@@ -717,8 +705,9 @@ class: middle
 
 
 ---
-class: stickit
+class: stickit middle
 
+.col[
 # Do
 
 .large[
@@ -726,14 +715,17 @@ class: stickit
 * diffusez
 * rencontrez
 ]
+]
 
 --
 
+.col[
 # Don't
 
 .large[
 * ne forcez jamais
 * ne paniquez pas
+]
 ]
 
 ---
@@ -763,6 +755,29 @@ class: middle single inverse
 
 
 ---
+name: speaker
+class: center middle single
+
+![mad hatter](../img/m4dz.jpg)
+
+# m4dz
+
+**Paranoïd Web Dino & Tech Evangelist**
+
+.extras[
+[m4dz.net](https://m4dz.net) | [@m4d_z](https://twitter.com/m4d_z) | PGP [0xD4627C417D969710](https://m4dz.net/0xD4627C417D969710.asc)
+]
+
+.org[
+## ![alwaysdata](../img/alwaysdata.svg)
+
+.extras[
+  [www.alwaysdata.com](https://www.alwaysdata.com)
+]
+]
+
+
+---
 layout: false
 class: section, bottom
 background-image: url('../img/placeholders/collaborate.jpg')
@@ -774,10 +789,6 @@ background-image: url('../img/placeholders/collaborate.jpg')
 name: thanks
 
 # Merci !
-
-## Iconographie / Médias
-
-- Icônes : [Linea](http://linea.io/) - [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 ## Fontes
 
