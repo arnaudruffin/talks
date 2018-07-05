@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return `<div class="ref"><a href="${url}">${url}</a></div>`
   }
 
-  const slideshow = remark.create({
+  const slideshow = window.slideshow = remark.create({
     sourceUrl:      `./${source}`,
     ratio:          (query.wide && JSON.parse(query.wide))? '16:9' : '4:3',
     highlightStyle: 'github',
