@@ -9,88 +9,6 @@ La Webapp sécurisée est-elle possible ?
 
 
 ---
-background-image: url(francis.jpg)
-background-size: auto 100%
-background-color: #504c5a
-
-
----
-class: single middle
-
-# Comme il est dans l'air du temps, il a opté pour une numérisation de ses documents de santé.
-
-
----
-class: single middle
-
-# Mais il comme le DMP (Dossier Médical _Partagé_) n'est pas au point, il a opté pour une autre solution.
-
-
----
-class: single middle
-
-# Il utilise _PassCare_, un carnet de santé proposé par une startup qui propose de sécuriser et de rendre dispo ses infos de santé n'importe où via un simple QRCode.
-
-
----
-class: single middle
-
-# Heureusement, il sait qu'il n'est pas le produit, puisqu'il paye un abonnement pour que la société héberge ses données et les rende facilement disponibles.
-
-
----
-class: single middle center
-
-![](hop.jpg)
-
-## Francis est rassuré, il va chez son médecin.
-
-
----
-class: middle center
-
-# What could possibly go…
-
-![](wrong.gif)
-
-
----
-class: single middle
-
-# Malheureusement, les données des habitudes de vies embarquées dans son profil incitent le médecin à penser à un problème cardiaque, il surcharge Francis d'examens et de surmédication.
-
-
----
-class: single middle
-
-# En plus, sa mutuelle, qui lui a proposé de prendre en charge son coût d'abonnement, a désormais accès à ses données, et refuse de prendre en charge les dépassements d'honoraires.
-
-
----
-class: single middle
-
-# Son employeur, qui avait souscrit le Pass dans le cadre de sa politique d'entreprise, craint que Francis ne devienne alcoolique. Elle le licencie préventivement.
-
-
----
-class: single middle center
-
-![](francis_2.jpg)
-
-## Finalement, Francis avait juste un gros rhume.
-
-
----
-class: inverse middle center
-
-# Guess what?
-
-.large[
-![](passcare.jpg)
-]
-
-
----
 layout: false
 class: section top
 background-image: url(../img/placeholders/two-brown-sea-turtle-on-tree-branch.jpg)
@@ -101,14 +19,6 @@ background-image: url(../img/placeholders/two-brown-sea-turtle-on-tree-branch.jp
 layout: true
 
 .breadcrumb[Partager : quoi, comment, et avec qui ?]
-
-
----
-class: center middle
-
-# La donnée est sensible
-
-![](innocent.gif)
 
 
 ---
@@ -127,18 +37,6 @@ class: single middle
 class: single middle
 
 # L'information transite (beaucoup)
-
-
----
-class: single middle
-
-# On ne devrait pas avoir (à penser) à se protéger
-
-
----
-class: single middle inverse
-
-# Mais on n'a pas le choix
 
 
 ---
@@ -167,23 +65,8 @@ class: middle
 
 .large[
 - Authentication zero-proof
-]
-
---
-
-.large[
 - End-to-end encryption
-]
-
---
-
-.large[
 - Encrypted Data Only
-]
-
---
-
-.large[
 - No-naive approach
 ]
 
@@ -226,41 +109,6 @@ class:
 class: middle center inverse single
 
 # **Auth (ZKP)**
-
----
-class: middle center
-
-# La caverne d'Ali Baba
-
-.small[
-![](ali-baba_1.jpg)
-]
-
-(Ceci est une caverne)
-
-
----
-class: middle center
-
-# La caverne d'Ali Baba
-
-.small[
-![](ali-baba_2.jpg)
-]
-
-(Ceci est toujours une caverne, _Rouge_ y est coincée)
-
----
-class: middle center
-
-# La caverne d'Ali Baba
-
-.small[
-![](ali-baba_3.jpg)
-]
-
-(Ceci est encore la même caverne, mais _Rouge_ connaissait le mot de passe)
-
 
 ---
 class: middle
