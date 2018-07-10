@@ -343,7 +343,7 @@ class: stickit middle
 
 .large[
 * n'ignorez pas les problèmes
-* "asynchrone" n'est pas "associal"
+* "asynchrone" n'est pas "asocial"
 ]
 ]
 
