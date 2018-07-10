@@ -502,6 +502,62 @@ class: medium
 
 
 ---
+class: middle center
+
+# Exemple : [Swagger](https://swagger.io) / [OpenAPI](https://www.openapis.org)
+
+.large[
+![](swagger-editor.png)
+]
+
+
+---
+class: middle center
+
+# Use [REST](https://www.restapitutorial.com)
+
+.large[
+![](rest-api.png)
+]
+
+
+---
+class: middle center code
+
+# [OBOE](http://www.oboejs.com) for large JSON contents
+
+.large[
+![](oboe.png)
+]
+
+
+---
+class: middle center code
+
+# Use GraphQL
+
+.large[
+![](graphql.png)
+]
+
+
+---
+class: middle center
+
+# GraphQL Interface
+
+.large[
+![](graphiql.png)
+]
+
+
+---
+class: inverse single middle center
+
+# Pour résumer :
+
+
+---
 class: middle
 
 # OWASP : top 10 privacy risks
